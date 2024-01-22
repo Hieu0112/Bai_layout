@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    >
+    <TableRow
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_span="4"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example for table"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="B1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button android:text="B2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <Button android:text="C1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_column="2"
+            android:text="C2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:text="C3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            />
+    </TableRow>
+</TableLayout>
+<!--    Tất cả các cột đều được giãn hết để cho sát mép 2 bên->*-->
+<!--    android:stretchColumns="*"-->
+
+<!--    Đặt vị trí-->
+<!--    android:layout_column="1"-->
+
+<!--    Hợp nhất ô-->
+<!--    android:layout_span="4"-->
+
+<!--    Tuần tự theo chiều đứng-->
+<!--    android:orientation="vertical"-->
+<!--<Button-->
+<!--android:text="Button 1"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--    />-->
+
+<!--    Tuần tự theo chiều ngang-->
+<!--<Button-->
+<!--android:text="Button 1"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="200dp"-->
+<!--    />-->
+
+<!--    Chia layout thành 8 phần-->
+<!--    android:weightSum="8"-->
+
+<!--    Dán sát vào đáy-->
+<!--    android:layout_alignParentBottom="true"-->
+
+<!--    Vị trí-->
+<!--    android:layout_alignRight="@id/bt1"-->

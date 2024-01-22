@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bai_layout</string>
+    <string-array name="dat_nuoc">
+        <item>Viet Nam</item>
+        <item>Lao</item>
+        <item>Nhat Ban</item>
+        <item>Trung Quoc</item>
+    </string-array>
+</resources>
